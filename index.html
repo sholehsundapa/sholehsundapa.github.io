@@ -11,6 +11,9 @@
     <!-- Icons Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="./style.css" />
 
@@ -48,7 +51,7 @@
     <section class="jumbotron text-center" id="home">
       <img src="./img/profile-pic.jpg" alt="My Profile Picture" class="rounded-circle img-thumbnail" width="300" height="300" />
       <h1 class="display-4">Sholeh Sundapa</h1>
-      <p class="lead">Freelance | Fullstack Web Developer</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -68,8 +71,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5">
-          <div class="col-md-4 text-end"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione distinctio eos tempore eveniet, iusto pariatur quasi sapiente perspiciatis deserunt.</p></div>
-          <div class="col-md-4">
+          <div class="col-md-4 text-end" data-aos="fade-right">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione distinctio eos tempore eveniet, iusto pariatur quasi sapiente perspiciatis deserunt.</p>
+          </div>
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="100">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quisquam veniam sequi, quaerat minus eaque itaque hic eos. Sequi, ea neque. Atque laborum fuga vero. Corrupti nihil assumenda eum. Dolorem!</p>
           </div>
         </div>
@@ -94,7 +99,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
               <img src="./img/image-1.jpg" class="card-img-top" alt="Project 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -102,7 +107,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="./img/image-2.jpg" class="card-img-top" alt="Project 2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -110,7 +115,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="./img/image-3.jpg" class="card-img-top" alt="Project 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -118,7 +123,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
               <img src="./img/image-4.jpg" class="card-img-top" alt="Project 4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -126,7 +131,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
               <img src="./img/image-5.jpg" class="card-img-top" alt="Project 5" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -144,6 +149,70 @@
       </svg>
     </section>
     <!-- Akhir Projects -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Gallery</h2>
+          </div>
+        </div>
+        <div class="row g-0 justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="https://picsum.photos/id/1000/300/300" alt="pic1000" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="https://picsum.photos/id/1001/300/300" alt="pic1001" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="https://picsum.photos/id/1002/300/300" alt="pic1002" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="https://picsum.photos/id/1003/300/300" alt="pic1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="https://picsum.photos/id/1004/300/300" alt="pic1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="https://picsum.photos/id/1005/300/300" alt="pic1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="https://picsum.photos/id/1006/300/300" alt="pic1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="https://picsum.photos/id/1008/300/300" alt="pic1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="https://picsum.photos/id/1009/300/300" alt="pic1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="https://picsum.photos/id/1010/300/300" alt="pic1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Gallery -->
 
     <!-- Contact -->
     <section id="contact">
@@ -198,6 +267,32 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImages = document.querySelectorAll(".gallery-img");
+
+      galleryImages.forEach((img, index) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = index * 200;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        duration: 2000,
+        once: true,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 2.2, delay: 1.5, text: "Freelance | Fullstack Web Developer" });
+      gsap.from("#home img", { duration: 1, y: -100, rotateY: 360, opacity: 0 });
+      gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0, ease: "bounce" });
+      gsap.from(".display-4", { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back" });
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbxTJMt9n9AezDyKGyvxKFgsAI-D-6NBK9ANQYOY_U_jg07-FqClb0LsZUcFdjpPC4E/exec";
